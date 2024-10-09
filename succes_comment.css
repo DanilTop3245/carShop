@@ -1,0 +1,86 @@
+html {
+    background-color: rgb(61, 61, 61);
+}
+
+body {
+    background-color: rgb(129, 242, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    color: white;
+    background: rgb(153, 153, 153);
+    background: radial-gradient(circle, rgba(153, 153, 153, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+header {
+    height: 150px;
+    padding: 10px;
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu {
+    margin-left: 400px;
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    padding-left: 20px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+
+ul.menu>li {
+    float: left;
+    position: relative;
+}
+
+ul.menu>li>a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul.menu>li>a:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+    background-color: rgba(60, 60, 60, 1);
+}
+
+ul.menu>li>a:not(:hover) {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.item {
+    background-color: rgba(60, 60, 60, 0.3);
+    border-radius: 14px;
+    color: white;
+    padding-right: 20px;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.uspeh {
+    display: flex;
+    justify-content: center;
+}
+
+.uspeh2 {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,145 @@
+html {
+    background-color: rgb(61, 61, 61);
+}
+
+body {
+    background-color: rgb(129, 242, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    color: white;
+    background: rgb(153, 153, 153);
+    background: radial-gradient(circle, rgba(153, 153, 153, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+header {
+    height: 150px;
+    padding: 10px;
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu {
+    margin-left: 400px;
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    padding-left: 20px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+
+ul.menu>li {
+    float: left;
+    position: relative;
+}
+
+ul.menu>li>a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul.menu>li>a:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+    background-color: rgba(60, 60, 60, 1);
+}
+
+ul.menu>li>a:not(:hover) {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.item {
+    background-color: rgba(60, 60, 60, 0.3);
+    border-radius: 14px;
+    color: white;
+    padding-right: 20px;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.ford {
+    display: flex;
+    justify-content: start;
+}
+
+.Voltswagen {
+    display: flex;
+    justify-content: end;
+}
+
+.Maserati {
+    display: flex;
+    justify-content: start;
+}
+
+.porsche {
+    display: flex;
+    justify-content: end;
+}
+
+.ford>p {
+    font-size: 100px;
+    text-align: end;
+    width: 800px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
+.Voltswagen>p {
+    font-size: 100px;
+    text-align: start;
+    width: 900px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
+.Maserati>p {
+    font-size: 100px;
+    text-align: end;
+    width: 900px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
+.porsche>p {
+    font-size: 100px;
+    text-align: start;
+    width: 800px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
+.auto1, .auto3 {
+    box-shadow:
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    1em 1em 1em rgba(0, 0, 0, 0.3);
+}
+
+.auto2, .auto4 {
+    box-shadow:
+    3em -3em 3em rgba(0, 0, 0, 0.1),
+    -1em 1em 1em rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,156 @@
+html {
+    background-color: rgb(61, 61, 61);
+}
+
+body {
+    background-color: rgb(129, 242, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    color: white;
+    background: rgb(153, 153, 153);
+    background: radial-gradient(circle, rgba(153, 153, 153, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+header {
+    height: 150px;
+    padding: 10px;
+
+}
+
+.menu {
+    margin-left: 400px;
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    padding-left: 20px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+
+ul.menu>li {
+    float: left;
+    position: relative;
+}
+
+ul.menu>li>a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+ul.menu>li>a:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+    background-color: rgba(60, 60, 60, 1);
+}
+
+ul.menu>li>a:not(:hover) {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.item {
+    background-color: rgba(60, 60, 60, 0.3);
+    border-radius: 14px;
+    color: white;
+    padding-right: 20px;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.Porsche {
+    display: flex;
+    justify-content: start;
+}
+
+.Porsche>.title {
+    font-size: 50px;
+    text-align: start;
+    width: 900px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    height: 50px;
+    margin: 0;
+}
+
+.Porsche>p {
+    height: 20px;
+    font-size: 20px;
+}
+
+.btn > a {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 30px;
+    background-color: rgba(116, 116, 116, 0.3);
+    border: none;
+    text-decoration: none;
+    color: white;
+}
+
+.btn > a:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+    background-color: rgba(60, 60, 60, 1);
+}
+
+.btn > a:not(:hover) {
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.harakteristiks {
+    border: 3px solid grey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background: no-repeat center url("./img/02b374101705095.5f24d5db1096f.gif");
+}
+
+.engine {
+    width: 300px;
+    display: inline-block;
+}
+
+.size {
+    width: 300px;
+    display: inline-block;
+}
+
+.KPP {
+    width: 300px;
+    display: inline-block;
+}
+
+.auto2 {
+    box-shadow:
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    1em 1em 1em rgba(0, 0, 0, 0.3);
+}
